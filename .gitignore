@@ -1,0 +1,27 @@
+# --- Maven build output ---
+eval-app/target/
+eval-app/**/*.war
+eval-app/**/*.class
+
+# --- IDE / OS files ---
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Environment & secrets ---
+.env
+*.env.local
+
+# --- Logs ---
+*.log
+
+# --- Session / temp files ---
+cookies.txt
